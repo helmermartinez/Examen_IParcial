@@ -1,0 +1,77 @@
+*{
+
+}
+
+body{
+    background:url('/recursos/car.jpg') no-repeat center top;
+    background-size: cover; 
+}
+main{
+width: 800px;
+height: 600px;
+background:white;
+margin: 0 auto;
+}
+
+#menu{
+    
+    padding: 0;
+}
+
+#menu li{
+    display: inline;
+}
+
+@font-face {
+    font-family:"GreatVibes-Regular";
+    src: url(/recursos/GreatVibes-Regular.ttf);
+    }
+
+@font-face {
+    font-family:"Oswald-Bold";
+    src: url(/recursos/Oswald-Bold.ttf);
+    }
+
+
+@font-face {
+    font-family:"BadScript-Regular";
+    src: url(/recursos/BadScript-Regular.ttf);   
+    }
+
+li a{
+    font-family: "BadScript-Regular"; 
+    font-size: 15px;
+    text-decoration: none;
+    float:left;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    width: 140px;
+    
+}
+
+li a:hover{
+    background-color:cornflowerblue;
+    
+}
+
+#cabecera{
+    font-family: "GreatVibes-Regular";
+    margin: -140px 0px 100px 160px;
+    color:blue;
+}
+
+p{
+    margin: -25px 0px 0px 0px;
+}
+
+#mensaje{
+    font-family: "GreatVibes-Regular";
+    margin: 270px 0px 0px 160px;
+    color:red;
+}
+
+label{
+    font-size: 45px;
+}
+
